@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #f4f4f4;
+  margin: 10;
+}
+.ID-Nav {
+  background-color: #fef2dd;
+  margin: 20px;
+  border: 10px #e8b77b solid;
+  padding: 5%;
+
+}
+.ID-Nav p {
+  font: bold 16px Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: blanchedalmond;
+  font: normal 10px;
+  margin: 10px 50px;
+  border: 2px red solid;
+  padding: 20px;
 }
