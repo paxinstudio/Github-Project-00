@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 .clearfix {
-  clear:both;
+  clear: both;
 }
 .button {
   background-color: grey;
@@ -22,13 +22,20 @@ a {
 }
 .button:hover {
   background-color: red;
-  color: white
+  color: white;
 }
+
+#footer {
+  text-align: center;
+  margin: 50px;
+  padding-left: 50px;
+}
+
 body {
   background-color: #f4f4f4;
   margin: 10;
 }
-h1 {
+.top-h h1 {
   color: black;
   margin: 10px;
   text-align: center;
@@ -63,21 +70,61 @@ h1 {
   text-align: center;
   padding: 10px 5px 20px 5px;
 }
-.form-1 input{
+.form-1 input {
   padding-bottom: 3px;
   padding-top: 3px;
   margin-bottom: 5px;
 }
 .form-1 label {
-display: block;
-margin: 5px;
+  display: block;
+  margin: 5px;
 }
-
-
 .block {
+  font-family: Arial, Helvetica, sans-serif;
   float: left;
   width: 33.3%;
   border: 1px solid;
   padding: 10px;
   box-sizing: border-box;
+  background-color: #dcbe90;
+}
+
+#mainblock {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: left;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+#sidebar {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: right;
+  width: 30%;
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 550px;
+  height: 200px;
+  border: 1px solid #000000;
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+  background-image:url('../HTML\ Assets/about.jpg');
+  background-position: center center;
+}
+.p-box h1{
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+.p-box h2{
+  position: absolute;
+  bottom: 30px;
+  left: 300px;
 }
